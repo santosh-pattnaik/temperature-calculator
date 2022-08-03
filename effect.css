@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Uchen', serif;
+}
+#tempCalc{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.heading{
+    font-size: 50px;
+    font-weight: 600;
+}
+#temp-data{
+    padding: 5px 20px;
+    margin: -20px 0 10px 0;
+    width: 30%;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+}
+#temp_diff{
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+}
+#submitBtn{
+    padding: 5px 20px;
+    background-color: darkgrey;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#resultContainer{
+    color: brown;
+    margin-top: -20px;
+}
